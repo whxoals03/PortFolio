@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Ourt - Product</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+
+        /* =========================
+           HEADER
+        ========================= */
+
+        .header {
+            width: 100%;
+            height: 80px;
+
+            display: flex;
+            align-items: center;
+
+            padding: 0 50px;
+
+            position: relative;
+        }
+
+
+        .logo {
+            width: 250px;
+
+            font-family: Georgia, serif;
+            font-size: 30px;
+            letter-spacing: 9px;
+
+            color: black;
+            text-decoration: none;
+        }
+
+
+        .main-menu {
+            display: flex;
+
+            list-style: none;
+
+            gap: 38px;
+
+            position: absolute;
+
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+
+        .main-menu a {
+            text-decoration: none;
+
+            color: #444;
+
+            font-size: 12px;
+            letter-spacing: 5px;
+
+            white-space: nowrap;
+        }
+
+
+        .right-menu {
+            margin-left: auto;
+
+            display: flex;
+
+            gap: 25px;
+
+            list-style: none;
+        }
+
+
+        .right-menu a {
+            text-decoration: none;
+
+            color: #444;
+
+            font-size: 11px;
+
+            white-space: nowrap;
+        }
+
+
+
+        /* =========================
+           상품 상세
+        ========================= */
+
+        .product-detail {
+            width: 82%;
+
+            margin: 60px auto;
+
+            display: grid;
+
+            grid-template-columns: 55% 45%;
+
+            gap: 80px;
+        }
+
+
+
+        /* 상품 사진 */
+
+        .detail-image {
+            width: 100%;
+
+            overflow: hidden;
+
+            aspect-ratio: 0.83;
+        }
+
+
+        .detail-image img {
+            width: 100%;
+            height: auto;
+
+            display: block;
+        }
+
+
+
+        /* 오른쪽 상품정보 */
+
+        .detail-info {
+            padding-top: 20px;
+        }
+
+
+        .detail-info h1 {
+            font-size: 25px;
+
+            line-height: 1.5;
+
+            margin-bottom: 12px;
+        }
+
+
+        .brand {
+            font-size: 14px;
+
+            color: #777;
+
+            margin-bottom: 60px;
+        }
+
+
+        .price-area {
+            margin-bottom: 35px;
+        }
+
+
+        .discount {
+            font-size: 18px;
+
+            color: red;
+
+            margin-right: 10px;
+
+            font-weight: bold;
+        }
+
+
+        .price {
+            font-size: 24px;
+
+            font-weight: bold;
+        }
+
+
+
+        /* 사이즈 */
+
+        .size-box {
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+
+            padding: 20px 5px;
+
+            margin-bottom: 30px;
+        }
+
+
+        .size-title {
+            font-size: 13px;
+
+            margin-right: 50px;
+        }
+
+
+        .size-value {
+            font-size: 14px;
+
+            font-weight: bold;
+        }
+
+
+
+        /* 버튼 */
+
+        .bag-button {
+            width: 100%;
+            height: 55px;
+
+            border: none;
+
+            background-color: black;
+            color: white;
+
+            font-size: 14px;
+
+            cursor: pointer;
+        }
+
+
+        .bag-button:hover {
+            background-color: #333;
+        }
+
+
+        .review {
+            margin-top: 30px;
+
+            padding-top: 20px;
+
+            border-top: 1px solid #ddd;
+
+            color: #666;
+        }
+
+        /* ONLINE STORE 하위 메뉴 */
+        .store-panel {
+            position: absolute;
+
+            top: 80px;
+            left: 0;
+
+            width: 100%;
+            height: 85px;
+
+            background-color: rgba(255, 255, 255, 0.9);
+
+            display: none;
+
+            z-index: 1000;
+        }
+
+
+        /* 메뉴 활성화 */
+        .store-panel.show {
+            display: block;
+        }
+
+
+        /* 카테고리 */
+        .category-menu {
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            gap: 38px;
+        }
+
+
+        /* 카테고리 글씨 */
+        .category-menu a {
+            color: #333;
+
+            text-decoration: none;
+
+            font-size: 12px;
+            letter-spacing: 4px;
+
+            white-space: nowrap;
+        }
+
+
+        /* 카테고리에 마우스를 올렸을 때 */
+        .category-menu a:hover {
+            color: black;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <a href="Ourt.html" class="logo">
+        Ourt
+    </a>
+
+
+    <ul class="main-menu">
+
+        <li>
+            <a href="Ourt.html">HOME</a>
+        </li>
+
+        <li>
+            <a href="#">ABOUT</a>
+        </li>
+
+        <li>
+            <a href="#" id="online-store-menu">ONLINE STORE</a>
+        </li>
+
+        <li>
+            <a href="#">COMMUNITY</a>
+        </li>
+
+        <li>
+            <a href="#">CONTACT</a>
+        </li>
+
+    </ul>
+
+
+    <ul class="right-menu">
+
+        <li>
+            <a href="#">LOGIN</a>
+        </li>
+
+        <li>
+
+            <a href="BAG.html">
+
+                SHOPPING BAG
+                (<span id="bag-count">0</span>)
+
+            </a>
+
+        </li>
+
+        <li>
+            <a href="#">MY PAGE</a>
+        </li>
+
+        <li>
+            <a href="#">COUPON</a>
+        </li>
+
+    </ul>
+
+    <!-- ONLINE STORE 하위 메뉴 -->
+    <div class="store-panel" id="store-panel">
+
+        <div class="category-menu">
+
+            <a href="#">NEW ARRIVALS</a>
+            <a href="#">COAT</a>
+            <a href="#">JACKET</a>
+            <a href="#">CARDIGAN</a>
+            <a href="#">KNIT</a>
+            <a href="#">T-SHIRTS</a>
+
+            <a href="SHIRTS.html">SHIRTS</a>
+
+            <a href="#">PANTS</a>
+            <a href="#">DENIM</a>
+            <a href="#">SHOES</a>
+            <a href="#">ACCESSORY</a>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<main class="product-detail">
+
+
+    <!-- 왼쪽 상품사진 -->
+
+    <div class="detail-image">
+
+        <img
+            id="product-image"
+            src=""
+            alt="상품 사진">
+
+    </div>
+
+
+
+    <!-- 오른쪽 상품정보 -->
+
+    <div class="detail-info">
+
+
+        <h1 id="product-name"></h1>
+
+
+        <p
+            class="brand"
+            id="product-brand">
+        </p>
+
+
+        <div class="price-area">
+
+            <span
+                class="discount"
+                id="product-discount">
+            </span>
+
+            <span
+                class="price"
+                id="product-price">
+            </span>
+
+        </div>
+
+
+
+        <!-- FREE 사이즈 고정 -->
+
+        <div class="size-box">
+
+            <span class="size-title">
+                SIZE
+            </span>
+
+            <span class="size-value">
+                FREE
+            </span>
+
+        </div>
+
+
+
+        <button
+            class="bag-button"
+            onclick="addToBag()">
+
+            ADD TO BAG
+
+        </button>
+
+
+        <p
+            class="review"
+            id="product-review">
+        </p>
+
+
+    </div>
+
+
+</main>
+
+
+<script src="PRODUCTS_DATA.js"></script>
+<script src="PRODUCT.js"></script>
+
+</body>
+</html>
