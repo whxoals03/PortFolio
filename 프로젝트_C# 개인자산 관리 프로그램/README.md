@@ -243,6 +243,11 @@ SQLite 데이터 저장
 <img width="657" height="612" alt="화면 캡처 2026-08-24 014841" src="https://github.com/user-attachments/assets/a1aebc29-d5d7-46f6-88e5-9e885a2069a0" />
 
 
+### PDF 생성 화면
+
+<img width="1219" height="737" alt="화면 캡처 2026-08-24 014536" src="https://github.com/user-attachments/assets/a76c4238-b2c0-417c-b20b-cf3a53633a27" />
+
+
 
 ## 구현 과정
 
