@@ -1,4 +1,4 @@
-# Ourt - 의류 쇼핑몰 웹 프로젝트
+<img width="1280" height="764" alt="스크린샷 2026-08-25 140532" src="https://github.com/user-attachments/assets/7798b1b5-dfeb-4f74-809f-fad5d2f427dc" /># Ourt - 의류 쇼핑몰 웹 프로젝트
 
 HTML, CSS, JavaScript를 활용하여 제작한 남성 의류 쇼핑몰 웹 프로젝트입니다.
 
@@ -11,19 +11,20 @@ HTML, CSS, JavaScript를 활용하여 제작한 남성 의류 쇼핑몰 웹 프�
 
 ### 메인 화면
 
-<!-- 메인 화면 스크린샷 추가 -->
+<img width="1280" height="764" alt="스크린샷 2026-08-25 140456" src="https://github.com/user-attachments/assets/52151cc5-a388-4350-9341-503939be4b59" />
 
 ### SHIRTS 상품 목록
 
-<!-- 상품 목록 화면 스크린샷 추가 -->
+<img width="1280" height="764" alt="스크린샷 2026-08-25 140532" src="https://github.com/user-attachments/assets/59412d40-0bd2-4260-9503-fefd9b647929" />
 
 ### 상품 상세 페이지
 
-<!-- 상품 상세 화면 스크린샷 추가 -->
+<img width="1280" height="763" alt="스크린샷 2026-08-25 140545" src="https://github.com/user-attachments/assets/6e7ee76d-45a0-4bcc-849f-1a697db3c4b7" />
 
 ### 장바구니
 
-<!-- 장바구니 화면 스크린샷 추가 -->
+<img width="1280" height="763" alt="스크린샷 2026-08-25 140557" src="https://github.com/user-attachments/assets/adb7ae73-8ee7-4acc-aa70-7d24a0af6d12" />
+
 
 ---
 
