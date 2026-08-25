@@ -72,10 +72,8 @@ Timer 이벤트가 발생할 때마다 뱀의 현재 위치를 갱신하고,
 
 ## 실행 화면
 
-게임 실행 화면 이미지를 여기에 추가
-
-![Snake Game](<img width="326" height="386" alt="스크린샷 2026-08-25 170754" src="https://github.com/user-attachments/assets/0ca4602b-cf43-4584-aa8e-287cd79d03c9" />)
 <img width="326" height="386" alt="스크린샷 2026-08-25 170754" src="https://github.com/user-attachments/assets/0ca4602b-cf43-4584-aa8e-287cd79d03c9" />
+
 ## 프로젝트를 통해 배운 점
 
 - Windows Forms의 Timer 이벤트 활용
