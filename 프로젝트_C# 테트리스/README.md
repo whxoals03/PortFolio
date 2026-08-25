@@ -87,9 +87,7 @@ C# Windows Forms를 활용하여 제작한 윷놀이 게임입니다.
 
 아래 위치에 실제 게임 실행 화면을 추가합니다.
 
-```md
 <img width="581" height="424" alt="스크린샷 2026-08-25 171240" src="https://github.com/user-attachments/assets/06a83710-814b-49c0-8ba8-d405d316f3b8" />
-```
 
 ## 프로젝트를 통해 배운 점
 
