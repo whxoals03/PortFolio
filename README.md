@@ -138,4 +138,4 @@ C# WinForms를 활용하여 구현한 테트리스 게임 프로젝트입니다.
 
 프로젝트에 대한 자세한 설명과 구현 화면은 아래 포트폴리오 PDF에서 확인할 수 있습니다.
 
-[포트폴리오 PDF 보기](https://github.com/whxoals03/PortFolio/blob/main/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4_%EC%A1%B0%ED%83%9C%EB%AF%BC.pdf)
+[포트폴리오 PDF 보기](https://github.com/whxoals03/PortFolio/blob/main/%5B%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%5D%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%EB%8B%A8%EA%B8%B0%20%EC%9D%B8%ED%84%B4%EC%8B%AD_2026.08.26_%EC%A1%B0%ED%83%9C%EB%AF%BC.pdf)
