@@ -1,5 +1,3 @@
-<img width="1280" height="764" alt="스크린샷 2026-08-25 140532" src="https://github.com/user-attachments/assets/7798b1b5-dfeb-4f74-809f-fad5d2f427dc" /># Ourt - 의류 쇼핑몰 웹 프로젝트
-
 HTML, CSS, JavaScript를 활용하여 제작한 남성 의류 쇼핑몰 웹 프로젝트입니다.
 
 쇼핑몰의 메인 화면부터 상품 목록, 상품 상세 정보, 장바구니까지 기본적인 쇼핑몰 이용 흐름을 구현했습니다.
