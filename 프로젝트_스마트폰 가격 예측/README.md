@@ -185,30 +185,15 @@ Random Forest에서는 트리 개수를 50개에서 100개로 증가시켰지만
 
 ## 10. 프로젝트 파일
 
-```text
-Smartphone-Price-Prediction/
-│
-├── README.md
-├── smartphone_price_prediction.ipynb
-├── presentation.pdf
-│
-└── images/
-    ├── price_distribution.png
-    ├── ram_price.png
-    └── model_comparison.png
-```
+현재 저장소에는 프로젝트 발표자료와 Google Colab에서 실행한 코드 및 결과를 정리한 PDF 파일이 포함되어 있습니다.
 
-### `smartphone_price_prediction.ipynb`
+### `2621022_조태민_머신러닝_Colab_코드.pdf`
 
-Google Colab에서 작성한 데이터 전처리, 데이터 분석, 머신러닝 모델 학습 및 성능 비교 코드입니다.
+Google Colab에서 진행한 데이터 전처리, 탐색적 데이터 분석, 머신러닝 모델 학습 및 모델별 성능 비교 과정이 포함되어 있습니다.
 
-### `presentation.pdf`
+### `2621022_조태민_머신러닝기초_프로젝트_발표자료.pdf`
 
-프로젝트 진행 과정과 분석 결과를 정리하여 발표할 때 사용한 자료입니다.
-
-### `images/`
-
-README에서 주요 분석 및 모델 성능 결과를 바로 확인할 수 있도록 사용한 그래프 이미지입니다.
+프로젝트의 목표, 데이터 분석 과정, 머신러닝 모델 비교 결과 및 최종 결론을 정리한 발표자료입니다.
 
 ---
 
