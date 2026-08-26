@@ -77,9 +77,6 @@ Google Colab 환경에서 데이터 확인 및 전처리, 탐색적 데이터 �
 <img width="650" height="453" alt="스크린샷 2026-08-26 163732" src="https://github.com/user-attachments/assets/737912a6-d531-4b52-8dee-15cd22e0428a" />
 
 
-```markdown
-![스마트폰 가격 분포](images/price_distribution.png)
-```
 
 스마트폰 가격 분포를 확인한 결과, 대부분의 제품이 상대적으로 낮은 가격 구간에 분포하고 있으며 일부 고가 스마트폰이 존재하는 것을 확인했습니다.
 
@@ -91,9 +88,7 @@ Google Colab 환경에서 데이터 확인 및 전처리, 탐색적 데이터 �
 
 <img width="668" height="457" alt="스크린샷 2026-08-26 163552" src="https://github.com/user-attachments/assets/1c70b713-db3c-48c9-a4e7-f8846da0112e" />
 
-```markdown
-![RAM 용량별 평균 가격](images/ram_price.png)
-```
+
 
 RAM 용량별 평균 스마트폰 가격을 비교한 결과, RAM 용량이 증가할수록 평균 가격도 증가하는 경향이 나타났습니다.
 
@@ -139,9 +134,7 @@ RAM 용량별 평균 스마트폰 가격을 비교한 결과, RAM 용량이 증�
 
 <img width="701" height="463" alt="스크린샷 2026-08-26 163536" src="https://github.com/user-attachments/assets/ed042586-883a-49d5-a611-b0e1bf80d4dc" />
 
-```markdown
-![모델별 R2 Score 비교](images/model_comparison.png)
-```
+
 
 | 모델              | 하이퍼파라미터        |   R² Score |
 | ----------------- | -------------------- | ---------: |
